@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -26,12 +26,12 @@ option = st.selectbox(
      'How would you like to be contacted?',
      ('Email', 'Home phone', 'Mobile phone'))
 st.write('You selected:', option)
-name = st.text_input("Name")
-st.write("Hello, ", name or "world")
-`
-    })
-  </script>
-</body>
- 
 
+name = st.text_input('Your name')
+st.write("Hello,", name or "world")
+`,
+        document.getElementById("root")
+      );
+    </script>
+  </body>
 </html>
